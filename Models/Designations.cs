@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace CompanyPrinters.Models
 {
-    //public class Designations
-    //{
-    //    public int DesignationID { get; set; }
-    //    public string DesignationName { get; set; }
+    public class Designations
+    {
+        public int DesignationID { get; set; }
+        public string DesignationName { get; set; }
 
-    //}
+    }
 }
 
