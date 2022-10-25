@@ -69,35 +69,7 @@ namespace CompanyPrinters.Controllers
 
             return new JsonResult(table);
         }
-        [HttpPost]
-        public JsonResult Post(Designations des)
-        {
-            //string query = @"
-            //        insert into dbo.Designations values 
-            //        ('" + des.DesignationName + @"')
-            //        ";
-            //DataTable table = new DataTable();
-            //string sqlDataSource = _configuration.GetConnectionString("CompanyPrinters");
-            //SqlDataReader myReader;
-            //using (SqlConnection myCon = new SqlConnection(sqlDataSource))
-            //{
-            //    myCon.Open();
-            //    using (SqlCommand myCommand = new SqlCommand(query, myCon))
-            //    {
-            //        myReader = myCommand.ExecuteReader();
-            //        table.Load(myReader); ;
-
-            //        myReader.Close();
-            //        myCon.Close();
-            //    }
-            //}
-
-            //return new JsonResult("Added Successfully");
-
-            bl.DesiEntry(des);
-
-            return new JsonResult("Added Successfully");
-        }
+        
         [HttpPut]
         public JsonResult Put(Designations des)
         {
