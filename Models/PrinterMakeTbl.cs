@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace CompanyPrinters.Models
 {
-    //public class PrinterMakeTbl
-    //{
-    //    public int PrinterMakeID { get; set; }
-    //    public string PrinterMake { get; set; }
-    //    public string CreateDate { get; set; }
-    //}
+    public class PrinterMakeTbl
+    {
+        public int PrinterMakeID { get; set; }
+        public string PrinterMake { get; set; }
+        public string CreateDate { get; set; }
+    }
 }
